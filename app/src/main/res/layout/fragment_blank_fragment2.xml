@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".BlankFragment2"
+             android:background="#000000">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed semper nulla. Vestibulum eu justo non nibh iaculis convallis nec viverra enim. Pellentesque nec felis vitae sapien suscipit volutpat vitae ac diam. Sed sem nisl, posuere ac elit eget, facilisis cursus leo. Nullam mattis massa et imperdiet aliquam. Praesent semper blandit elit, id aliquam ex mattis eget. Cras fringilla aliquam blandit.
+
+Ut non mollis enim. Phasellus nulla lacus, dignissim sed dolor vitae, dapibus dapibus neque. Aenean rhoncus egestas arcu eget egestas. Donec eget neque iaculis, lacinia tellus eget, interdum diam. Nulla vel ipsum lobortis, ultrices velit id, interdum velit. Praesent sit amet iaculis lorem. Maecenas eget ultricies felis. Donec erat erat, bibendum quis libero sit amet, vehicula consectetur nibh.
+
+Ut hendrerit tempor ligula et aliquam. Proin lacinia metus at ligula tristique eleifend nec sed ex. Aliquam tristique ex eget feugiat viverra. Phasellus rhoncus congue congue. Sed sit amet nibh luctus, ultricies sem eget, lacinia sapien. Nam varius sem sapien, nec lacinia sapien suscipit sit amet. Morbi molestie elit at ligula posuere porta. Pellentesque in lorem massa. Vestibulum mi justo, posuere sit amet elit eu, congue iaculis turpis. Suspendisse eget bibendum risus. Nunc in hendrerit eros, vel tristique odio. Nullam eleifend fringilla fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ligula sapien, venenatis at libero non, egestas consequat nunc. Sed eget eros varius, lobortis turpis in, ultrices est. Fusce porttitor maximus malesuada.
+
+Sed scelerisque nunc mattis, congue sapien eget, porta tortor. Suspendisse rutrum leo sapien, venenatis bibendum ipsum scelerisque tempus. Nunc ac lobortis felis. Duis eleifend libero eu velit gravida mattis. Aenean id porta metus. Integer arcu nibh, efficitur sit amet euismod eget, accumsan in velit. Quisque venenatis condimentum justo, ac tristique dolor venenatis id. Nunc vel pretium massa. Pellentesque nec ornare arcu. Vivamus eu gravida massa. Praesent laoreet eu nunc vel mollis.
+
+Nulla faucibus interdum volutpat. Quisque cursus metus ullamcorper lectus hendrerit tempus. Nulla vitae ultricies risus, sollicitudin tristique massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras volutpat ante at vulputate sagittis. Morbi fringilla elit tellus, a dapibus eros vehicula eu. Proin at luctus ante, id hendrerit lorem. Maecenas rutrum ligula dapibus ipsum posuere vestibulum. Praesent lobortis lacus leo, ac mollis lacus lacinia et. Sed ut ante quis justo feugiat tincidunt mollis eu ex. Fusce eget enim facilisis lectus tincidunt finibus. Nulla tempor leo a condimentum tincidunt. Suspendisse potenti. Nam eleifend orci a augue facilisis facilisis. Sed placerat cursus mi nec condimentum. Maecenas a gravida justo."/>
+
+</ScrollView>

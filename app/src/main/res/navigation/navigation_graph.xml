@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation_graph"
+            app:startDestination="@id/fragmentHost">
+
+    <fragment
+            android:id="@+id/fragmentHost"
+            android:name="com.eddnav.transitionbug.FragmentHost"
+            android:label="">
+        <action
+                android:id="@+id/action_fragmentHost_to_bottom_navigation_graph"
+                app:destination="@id/bottom_navigation_graph"/>
+        <action
+                android:id="@+id/action_fragmentHost_to_extraFragment"
+                app:destination="@id/extraFragment"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <include app:graph="@navigation/bottom_navigation_graph"/>
+    <fragment
+            android:id="@+id/extraFragment"
+            android:name="com.eddnav.transitionbug.ExtraFragment"
+            android:label="fragment_extra"
+            tools:layout="@layout/fragment_extra"/>
+
+
+</navigation>
